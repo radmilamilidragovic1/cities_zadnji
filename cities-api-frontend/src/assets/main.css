@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+  --app-bg: rgb(24, 24, 27);
+  --on-app-bg: rgb(255, 255, 255);
+  --gradient-bg: linear-gradient(
+      color-mix(in srgb, var(--app-bg) 70%, transparent),
+      color-mix(in srgb, var(--app-bg) 70%, transparent)
+  );
+  --primary: rgb(219, 0, 0);
+  --on-primary: rgba(255, 255, 255);
+  --primary-dark: rgb(185, 28, 28);
+
+  --sp-xs: 4px;
+  --sp-sm: 8px;
+  --sp-md: 16px;
+  --sp-lg: 24px;
+  --sp-xl: 32px;
+}
+
+body {
+  font-family:'Lato', serif;
+  background-color: var(--app-bg);
+  color: var(--on-app-bg);
+  height: 100vh;
+  background-image: url('@/assets/hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#app {
+  height: 100%;
+}
+
+.pt-lg {
+  padding-top: var(--sp-lg);
+}
+
+.pb-xs {
+  padding-bottom: var(--sp-xs);
+}
+
+.py-sm {
+  padding-top: var(--sp-sm);
+  padding-bottom: var(--sp-sm);
+}
+
+.py-md {
+  padding-top: var(--sp-md);
+  padding-bottom: var(--sp-md);
+}
+
+.px-md {
+  padding-left: var(--sp-md);
+  padding-right: var(--sp-md);
+}
+
+.px-lg {
+  padding-left: var(--sp-lg);
+  padding-right: var(--sp-lg);
+}
+
+.pa-xl {
+  padding: var(--sp-xl);
+}
+
+.mb-sm {
+  margin-bottom: var(--sp-sm);
+}
+
+.mb-md {
+  margin-bottom: var(--sp-md);
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-sm {
+  gap: var(--sp-sm);
+}
+
+.gap-md {
+  gap: var(--sp-md);
+}
+
