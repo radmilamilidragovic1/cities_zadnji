@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/cities-api-frontend t-zadnj.iml" filepath="$PROJECT_DIR$/.idea/cities-api-frontend t-zadnj.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/cities-api-frontend.iml" filepath="$PROJECT_DIR$/.idea/cities-api-frontend.iml" />
+>>>>>>> 258c7bf7f72e9a5c5eeac495c4d912cab746a530
     </modules>
   </component>
 </project>

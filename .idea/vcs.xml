@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="VcsDirectoryMappings" defaultProject="true" />
+=======
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cities_zadnji" vcs="Git" />
+  </component>
+>>>>>>> 258c7bf7f72e9a5c5eeac495c4d912cab746a530
 </project>
